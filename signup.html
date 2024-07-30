@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fontawesoeme link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- css link here -->
+    <link rel="stylesheet" href="asset/stylee.css">
+<!-- swiper css -->
+
+<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* signup-style.css */
+
+.signup-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    margin-top: 50px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #3490dc;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.signup-form button {
+    padding: 10px;
+    background-color: #3490dc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.signup-form button:hover {
+    background-color: #1d4ed8;
+}
+
+.login-link {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.login-link a {
+    color: #3490dc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+
+
+
+<title>Construction website</title>
+</head>
+
+<body class="bg-red-100 text-white ">
+    <section>
+        <header>
+
+            <div class="logo"><img src="images/Screenshot 2024-02-03 134131.png" height="80" width="80" alt=""></div>
+
+            <nav class="navbar">
+
+                <a href="Home.html">Home</a>
+                <a href="Home.html#abt">About</a>
+                <a href="Service.html">Services</a>
+               
+                <a href="contactus.html">contact</a>
+                <a href="Vacancy.html">Vacancy</a>
+               
+                    <a style="border-radius: 10px; padding: 12px 20px; background-color: #3490dc; color: #ffffff; font-weight: bold; text-decoration: none; transition: all 0.3s ease-in-out;" onmouseover="this.style.backgroundColor='#1d4ed8'" onmouseout="this.style.backgroundColor='#3490dc'" href="login.html">Signin</a>
+              
+
+            </nav>
+
+            <div class="myicons">
+                <div id="menu-bar" class="fas fa-bars"></div>
+                <div id="search" class="fas fa-search"></div>
+            </div>
+
+            <div id="searchform" class="search-form">
+                <input type="search">
+            </div>
+
+
+        </header>
+    </section>
+    
+    <main class="flex items-center justify-center h-screen">
+        <div class="signup-container">
+            <form class="signup-form">
+                <h2>Sign Up</h2>
+    
+                <div class="input-group">
+                    <label for="fullname"><i class="fas fa-user"></i></label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Full Name" required>
+                </div>
+    
+                <div class="input-group">
+                    <label for="email"><i class="fas fa-envelope"></i></label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+    
+                <div class="input-group">
+                    <label for="password"><i class="fas fa-lock"></i></label>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+    
+                <button type="submit">Sign Up</button>
+    
+                <p class="login-link">Already have an account? <a href="new login.html">Login</a></p>
+            </form>
+        </div></main>
+   
+  <footer class="footer">
+    
+    <div class="flex flex-wrap justify-center">
+            <div class="flex-1 hidden sm:flex">
+                <div class="flex flex-col items-center text-center text-white">
+                    <a>
+                        <img src="images/Screenshot 2024-02-03 134131.png" height="70" width="70" alt="Logo" style="margin-left: 0px;">
+                    </a>
+                    <em class="text-2xl" style="margin-top: 20px;"><strong>"We have over 10 years of experience, able to help you 24 hours a day"</strong></em>
+                    <p class="mt-4 text-xl">
+                        Have anything to say about our website?
+                    </p>
+                    <ul class="mt-2 list-disc text-left text-xl">
+                        <li>Call us at <strong>+251116-638939</strong></li>
+                        <li>Fax: <strong>+251116-616794</strong></li>
+                    </ul>
+                    <p class="mt-2">
+                        Or send us a note through our <a href="#" class="text-blue-200 underline">Contact Page</a>.
+   </p>
+                </div>
+            </div>
+  
+            <div class="flex-1 text-white p-4">
+                <div class="flex flex-col items-center">
+                    <h2 class="text-3xl font-bold mb-2" style="font-weight: 300; margin-top: 70px; font-size: 25px;">Tags</h2>
+                    <ul class="list-disc text-xl" style="font-size: 13px;">
+                        <li><a href="Home.html" class="text-gray-300 hover:text-white">Home</a></li>
+                        <li><a href="Home.html#abt" class="text-gray-300 hover:text-white">About</a></li>
+                        <li><a href="Service.html" class="text-gray-300 hover:text-white">Service</a></li>
+                        <li><a href="contactus.html" class="text-gray-300 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+  
+            <div class="flex-1 hidden md:flex">
+                <div class="flex flex-col items-center">
+                    <h2 class="text-3xl font-bold mb-2 text-white" style="font-weight: 300; margin-top: 70px; font-size: 25px;">Photos</h2>
+                    <div class="flex flex-wrap justify-center">
+                        <div class="m-2">
+                            <img src="images/download (1).jpg" alt="" width="100">
+                        </div>
+                        <div class="m-2">
+                            <img src="images/images (1).jpg" alt="" width="100">
+                        </div>
+                        <div class="m-2">
+                            <img src="images/download (2).jpg" alt="" width="100">
+                        </div>
+                        <div class="m-2">
+                            <img src="images/images (2).jpg" alt="" width="100">
+                        </div>
+                        <div class="m-2">
+                          <img src="images/download (1).jpg" alt="" width="100">
+                      </div>
+                      <div class="m-2">
+                        <img src="images/download (2).jpg" alt="" width="100">
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <div class="flex items-center justify-center">
+            <ul class="social" style="margin-top: 60px;">
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+                <li><i class="fab fa-youtube"></i></li>
+            </ul>
+        </div>
+    </footer>
+  
+  
+  
+         <script src="asset/scriptt.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  
+  </body>
+  
+  </html>
